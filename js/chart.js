@@ -1,8 +1,6 @@
 Highcharts.chart('container', {
   chart: {
-    marginRight: 10,
-    width: 800,
-    height: 600
+    marginRight: 10
   },
   plotOptions: {
         series: {
