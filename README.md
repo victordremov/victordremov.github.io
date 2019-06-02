@@ -19,10 +19,8 @@
       </li>
    <li>Represent results as website where user can run tests and compare which is good for his business.</li>
   </ul>
-</body>
-<footer>
   <div id="container"></div>
-</footer>
+</body>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
