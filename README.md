@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/victordremov/victordremov.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/victordremov/victordremov.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Research on multi-armed bandit model usage efficience for real-world email mailing.
+## Research goals
+* How fast is feedback for email mailing?
+  What is the difference between sending, opening and click through times
+* How mailing variants should be distributed between recipients?
+  We compare strategies:
+  - Send defined number of emails with random variants.
+    Choose best mailing variant and use it for rest recipients.
+  - Send defined number of emails with random variants.
+    Apply statistical n-sampled test.
+    If there is significantly better mailing variant, use it for rest recipients.
+    If there is not, continue to send randomly.
+  - Use feedback to send better variants more ofter and worse variants less ofter. 
+* Represent results as website where user can run tests and compare which is good for his business.
