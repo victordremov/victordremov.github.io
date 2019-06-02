@@ -18,7 +18,9 @@
     </li>
  <li>Represent results as website where user can run tests and compare which is good for his business.</li>
 </ul>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/export-data.js"></script>
-<script src="js/chart.js"></script>
+<div>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="js/chart.js"></script>
+</div>
