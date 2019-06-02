@@ -1,4 +1,4 @@
-# Research on multi-armed bandit model usage efficience for real-world email mailing.
+# Research on multi-armed bandit model efficiency for real-world emailing.
 ## Research goals
 * How fast is feedback for email mailing?
   What is the difference between sending, opening and click through times
